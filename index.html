@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Vue 3 Quickstart</title>
+    <link rel="icon" href="./favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Vue.js 3.0 beta -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.0.0-beta.20/vue.global.js"></script>
+
+    <!-- Water.css - https://watercss.kognise.dev/ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/light.min.css">
+<body>
+
+<div id="app">
+</div>
+
+
+<script type="module">
+    import app from './app.js'
+    const {createApp} = Vue;
+    createApp(app).mount('#app');
+</script>
+
+</body>
+</html>
