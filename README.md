@@ -42,7 +42,7 @@ As you change pages, URL changes as well. Also works browser back button. Routes
 
 ## Store
 
-Template includer simple store where you can declare global variables that are visible in entire application. On new page, just reference store and you can use that global variables. When variable begins with dollar sign (like in PHP), it is automatically saved in local storage. So, if you close application and open it again, values are restored.
+Template include simple store where you can declare global variables that are visible in entire application. On new page, just reference store and you can use that global variables. When variable begins with dollar sign (like in PHP), it is automatically saved in local storage. So, if you close application and open it again, values are restored.
 
 ## Functions
 
