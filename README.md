@@ -60,9 +60,9 @@ If you want to add new page, just follow same pattern (create file and write to 
 
 There are 3 components (one for each page). Every component is in single file.
 
-Component 1: Simple counter that is saved locally, so if you close tab/browser, it will be saved and restored on next load.
-Component 2: Clone text from input field and get URL parameter from Page 2
-Component 3: Data table with sample JSON Api fetched data and with simple sorting and search.
+* Component 1: Simple counter that is saved locally, so if you close tab/browser, it will be saved and restored on next load.
+* Component 2: Clone text from input field and get URL parameter from Page 2
+* Component 3: Data table with sample JSON Api fetched data and with simple sorting and search.
 
 With these 3 components you can see how this works and following same pattern you can add as many components you want.
 
