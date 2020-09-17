@@ -39,8 +39,8 @@ export default {
         <div id="sidebar">
             <nav>
                 <button v-on:click="page = ''">Home</button>
-                <template v-for="item, index in pages">
-                    <button key="item.name" v-on:click="page = index">
+                <template v-for="item, index in pages" key="item.name">
+                    <button v-on:click="page = index">
                         {{ item.name }}
                     </button>
                 </template>               
