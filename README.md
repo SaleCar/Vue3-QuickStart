@@ -21,7 +21,6 @@ Just copy files and run ;)
 ### Upgrade Vue version
 
 Find Vue 3 CDN link in index.html and change it to new version.
-
 Then check that everything is working properly, and if it does, you successfully upgraded ;)
 
 This is development build, make sure to use the production build (vue.global.prod.js) when deploying for production.
