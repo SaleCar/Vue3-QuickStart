@@ -78,5 +78,5 @@ Template have reference to Water.css "no class" CSS library. You can remove this
 
 ## Development
 
-Since this project contains single-page components without bundling, html part of component is held in ES6 "template literals".
+Since this project contains single-file components without bundling, html part of component is held in ES6 "template literals".
 To have code highlighting and intellisense inside template literals, I suggest to install VSCode extension "Vue Inline Template".
