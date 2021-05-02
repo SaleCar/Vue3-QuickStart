@@ -10,7 +10,7 @@ export default {
         const msgToChild = ref(null)
         const msgFromChild = ref(null)
 
-        //set message to child component (and reset after 3 secounds)
+        //set message to child component (and reset after 3 seconds)
         function newMsg() {
             msgToChild.value = 'Hello Child'
             setTimeout(function() {msgToChild.value = null}, 3000)
