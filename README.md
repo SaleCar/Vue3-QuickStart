@@ -3,7 +3,7 @@
 Simple SPA-like Vue 3.0 template for quick start. 
 No CLI/Webpack/Node required.
 
-Contains 3 sample pages, and 3 components. Following that pattern, you can add as many as you want. Every page or component is in separate file. Also, template contains simple routing and simple store.
+Contains 4 sample pages, and 4 components. Following that pattern, you can add as many as you want. Every page or component is in separate file. Also, this starter template contains simple routing and simple store.
 
 Online demo: http://vue3quickstart.rf.gd/
 
@@ -39,7 +39,7 @@ Components are located in ./components folder. You can add them as many as you w
 
 ## Routing
 
-As you change pages, URL changes as well. Also works browser back button. Routes are simply page names. No option for custom routes, for that you must use specialized router. For this to work, .htaccess file is required. 
+As you change pages, URL changes as well. Also works browser back button. Routes are simply page names. No option for custom routes, for that you must use specialized router. For this simple router to work, .htaccess file is required (for Apache web server). 
 
 
 ## Store
@@ -60,15 +60,23 @@ If you want to add new page, just follow same pattern (create file and write to 
 
 ## Components
 
-There are 3 components (one for each page). Every component is in single file.
+There are 4 components (one for each page). Every component is in single file.
 
 * Component 1: Simple counter that is saved locally, so if you close tab/browser, it will be saved and restored on next load.
 * Component 2: Clone text from input field and get URL parameter from Page 2
 * Component 3: Data table with sample JSON Api fetched data and with simple sorting and search.
+* Component 4: Pass data to child component (with props) and pass data from child to parent component (with emit).
 
-With these 3 components you can see how this works and following same pattern you can add as many components you want.
+With these 4 components you can see how this works and following same pattern you can add as many components you want.
 
 
 ## Styling
 
 Template have reference to Water.css "no class" CSS library. You can remove this and add your custom styling. 
+
+
+
+## Development
+
+Since this project contains single-page components without bundling, html part of component is held in ES6 "template literals".
+To have code highlighting and intellisense inside template literals, I suggest to install VSCode extension "Vue Inline Template".
