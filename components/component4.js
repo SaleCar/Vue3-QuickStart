@@ -7,7 +7,7 @@ export default {
 
     setup(props, {emit}) {
 
-        //emit message to parent (and reset after 3 secounds)
+        //emit message to parent (and reset after 3 seconds)
         function newMsg() {
             emit('msgEmit', 'Hello Parent')
             setTimeout(function() {emit('msgEmit', '')}, 3000)
