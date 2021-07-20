@@ -1,6 +1,6 @@
 # Vue 3.0 QuickStart
 
-Simple SPA-like Vue 3.0 template for quick start. 
+Simple SPA-like Vue 3 template for quick start. 
 No CLI/Webpack/Node required.
 
 Contains 4 sample pages, and 4 components. Following that pattern, you can add as many as you want. Every page or component is in separate file. Also, this starter template contains simple routing and simple store.
