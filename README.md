@@ -1,4 +1,4 @@
-# Vue 3.0 QuickStart
+# Vue 3 QuickStart
 
 Simple SPA-like Vue 3 template for quick start. 
 No CLI/Webpack/Node required.
