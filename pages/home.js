@@ -10,5 +10,9 @@ export default {
         <div>
             {{ title }}
         </div>
+        <div>
+             <form-kit type="text" />
+             <FormKit type="text" />
+        </div>
     `,
   };
