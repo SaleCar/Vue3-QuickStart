@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/light.min.css">
     
     <!-- FormKit beta https://cdn.jsdelivr.net/npm/@formkit/vue@1.0.0-beta.2/dist/index.esm.min.js -->
-    <script src = "https://cdn.jsdelivr.net/npm/@formkit/vue@1.0.0-beta.2/dist/index.esm.min.js"></script>
+    <script src = "https://cdn.jsdelivr.net/npm/@formkit/vue@1.0.0-beta.2/dist/formkit-vue.min.js"></script>
 </head>
 
 <body>
@@ -26,7 +26,8 @@
     import app from './app.js'
     const {createApp} = Vue;
     // createApp(app).mount('#app');
-    import { plugin, defaultConfig } from "@formkit/vue";
+   // import { plugin, defaultConfig } from "@formkit/vue";
+     const { plugin, defaultConfig } = FormKitVue;
     createApp(app).use(plugin, defaultConfig).mount("#app");
 </script>
 
